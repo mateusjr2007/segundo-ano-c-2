@@ -1,0 +1,29 @@
+BODY{
+    background-color: blue;
+
+}
+
+H1{
+    COLOR: BLACK;
+    text-align:center;
+}
+
+.cabeçalho{
+    background-color: rgb(202, 93, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+
+}
+
+.imagem-conteiner{
+    width: 50px;
+    height: 50px;
+    padding: lem;
+}
