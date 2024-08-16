@@ -1,29 +1,51 @@
-BODY{
-    background-color: blue;
-
+body{
+    background-color: black;
 }
 
 H1{
-    COLOR: BLACK;
-    text-align:center;
+    color: white;
+    text-align: center;
 }
 
 .cabeçalho{
-    background-color: rgb(202, 93, 93);
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-.conteiner{
+.container{
     display: flex;
-    align-items: center;
-
+    align-items: center;    
 }
 
-.imagem-conteiner{
+.imagem-container{
     width: 50px;
     height: 50px;
-    padding: lem;
+    padding: 1em;
 }
+
+.container__imagem {
+    width: 50px;
+    height: 50px;
+    padding: 1em;
+}
+
+.lista-menu{
+    display: nome;
+}
+
+.containerbotao:checked ~ .lista-menu{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
